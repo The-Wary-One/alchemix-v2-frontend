@@ -21,6 +21,7 @@
   import Error from '@views/Error.svelte';
   // import Accounts from '@views/Accounts.svelte';
   import Vaults from '@views/Vaults.svelte';
+  import SelfRepayingENS from '@views/SelfRepayingENS.svelte';
   import Transmuter from '@views/Transmuter.svelte';
   import Farms from '@views/Farms.svelte';
   import Governance from '@views/Governance.svelte';
@@ -159,6 +160,8 @@ Use at your own risk.
                 {#if walletChecked}
                   <!--                <Route path='/accounts' component='{Accounts}' />-->
                   <Route path="/vaults" component="{Vaults}" />
+                  <!-- FIXME: Use a "Services" route instead -->
+                  <Route path="/self-repaying-ens" component="{SelfRepayingENS}" />
                   <Route path="/transmuter" component="{Transmuter}" />
                   <Route path="/swap" component="{Swap}" />
 

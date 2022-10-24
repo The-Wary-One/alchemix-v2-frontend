@@ -12,6 +12,12 @@ export function sidebarSetup() {
       supportedChains: ['0x1', '0xfa', '0xa'],
     },
     {
+      label: 'self_repaying_ens',
+      path: 'self-repaying-ens',
+      icon: 'vault_med.svg',
+      supportedChains: ['0x1'],
+    },
+    {
       label: 'transmuter',
       path: 'transmuter',
       icon: 'transmuter_med.svg',

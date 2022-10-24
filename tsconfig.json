@@ -4,6 +4,7 @@
     "target": "ES6",
     "module": "esnext",
     "importsNotUsedAsValues": "error",
+    "resolveJsonModule": true,
     "isolatedModules": false,
     "esModuleInterop": true,
     "sourceMap": true,
